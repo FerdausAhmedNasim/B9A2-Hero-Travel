@@ -114,7 +114,7 @@ margin:90px 60px ;
     display: flex;
     margin: 20px;
     padding: 50px;
-    gap: 150px;
+    gap: 50px;
 }
 .input{
     border: 1px solid red;
@@ -146,4 +146,62 @@ margin:90px 60px ;
 .last-text{
     text-align: center;
     color: gray; 
+}
+.bonus-deal{
+    text-align: center;
+}
+.img-bonus{
+    width: 100%;
+    position: relative;
+}
+.bdi{
+    width: 100%;
+}
+.bonus-deal-1{
+    position: relative;
+
+}
+.bp-1{
+    padding: 50px;
+    background-color: rgba(248, 248, 246, 0.315);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+.bdi-1{
+    width: 100%;
+}
+
+
+
+.bonus-deal-2{
+    position: relative;
+
+}
+.bp-2{
+    padding: 50px;
+    background-color: rgba(248, 248, 246, 0.315);
+    position: absolute;
+    top: 30%;
+    right: 50%;
+}
+.bdi-2{
+    width: 100%;
+}
+
+
+
+.bonus-deal-3{
+    position: relative;
+
+}
+.bp-3{
+    padding: 50px;
+    background-color: rgba(248, 248, 246, 0.315);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+.bdi-3{
+    width: 100%;
 }

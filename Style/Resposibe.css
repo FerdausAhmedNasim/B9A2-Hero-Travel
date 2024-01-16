@@ -1,12 +1,11 @@
 
 
-
-
-@media screen and (min-width:600px) {
-    nav,nav>ul,.second-container,.one,.two,.choose-middle,.form-pic,.last,
+@media screen and (max-width:600px) {
+    nav,nav>ul,.second-container,.one,.two,.form-pic,.last,
     .icon {
      flex-direction: column;
     }
+    
     .amazone-pic{
         background-image:url("../Images/Group13.png");
         height: 20vh;
@@ -22,16 +21,45 @@
         width: 50%;
         object-fit: cover;
     }
- 
- }
-
+    .choose-middle{
+        margin: 0px;
+        padding: 0px;
+        gap: 0px;
+        flex-direction: column;
+        
+    }
+    .choose-middle-1{
+        background-color: antiquewhite;
+    }
+    .choose-middle-2{
+        background-color: bisque;
+    }
+    
+    .choose-last{
+        text-align: center;
+        background-color: bisque;
+        margin: 0px;
+        padding: 0px;
+        gap: 0px;
+    }
+    *{margin: 0;
+        padding:  0;
+        }
+    }
 
 
 @media screen and (max-width:992px) {
-   nav,nav>ul,.second-container,.one,.two,.choose-middle,.form-pic,.last,
-   .icon {
-    flex-direction: column;
-   }
+    nav,nav>ul,.second-container,.one,.two,.choose-middle,.form-pic,
+    .last,.icon {
+     display: flex;
+    }
 }
+ 
+
+
+
+
+ 
+ 
 
 
