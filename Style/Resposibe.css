@@ -1,0 +1,37 @@
+
+
+
+
+@media screen and (min-width:600px) {
+    nav,nav>ul,.second-container,.one,.two,.choose-middle,.form-pic,.last,
+    .icon {
+     flex-direction: column;
+    }
+    .amazone-pic{
+        background-image:url("../Images/Group13.png");
+        height: 20vh;
+        width: 40vh;
+      
+        position: relative;
+    }
+    .one-two{
+        height: 50%;
+       
+    }
+    .one-two img{
+        width: 50%;
+        object-fit: cover;
+    }
+ 
+ }
+
+
+
+@media screen and (max-width:992px) {
+   nav,nav>ul,.second-container,.one,.two,.choose-middle,.form-pic,.last,
+   .icon {
+    flex-direction: column;
+   }
+}
+
+

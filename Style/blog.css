@@ -1,10 +1,10 @@
-*{margin: 0;
-padding: 0;
-box-sizing: border-box;
+*{margin: 5px;
+padding:  0;
 }
 nav{
-    min-height: 10px;
     display: flex;
+    /* justify-content:space-between; */
+    align-items: center;
 }
 nav img{
     width: 40px ;
@@ -12,9 +12,7 @@ nav img{
 }
 
 nav{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
+ 
 }
 
 nav>ul{
