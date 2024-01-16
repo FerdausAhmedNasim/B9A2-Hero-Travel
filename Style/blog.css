@@ -1,0 +1,72 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+nav{
+    min-height: 10px;
+    display: flex;
+}
+nav img{
+    width: 40px ;
+    margin-left: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+}
+nav li a{
+    text-decoration: none;
+}
+.amazone-pic{
+    background-image:url("../Images/Group13.png");
+    height: 500px;
+    width: 1600px;
+    background-size: cover;
+    position: relative;
+}
+.amazone-text{
+  color: rgb(250, 7, 7);
+  
+    
+}
+ .ama-h1{
+margin:50px 60px ;
+position: absolute;
+}
+.ama-p{
+position:absolute ;
+margin:90px 60px ;
+} 
+
+.button{
+    padding: 4px 4px;
+    background-color: rgb(243, 139, 4);
+}
+.input1{
+    font-size: 2rem;
+    margin:100px 60px;
+    position: absolute;
+}
+.second-container{
+    display: flex;
+    padding: 20px;
+}
+.second-text{
+    padding-left: 50px;
+}
+.forth-text{
+    align-items: center;
+}
+.one-two{
+    height: 100vh;
+}
