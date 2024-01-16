@@ -136,5 +136,16 @@ margin:90px 60px ;
     top: -30%;
     transform: rotate(-45deg);
 }
-
-
+.last{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.last-text{
+    text-align: center;
+    color: gray; 
+}
