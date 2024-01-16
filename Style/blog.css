@@ -33,6 +33,7 @@ nav li a{
     width: 1600px;
     background-size: cover;
     position: relative;
+    margin: 0 auto;
 }
 .amazone-text{
   color: rgb(250, 7, 7);
@@ -68,5 +69,72 @@ margin:90px 60px ;
     align-items: center;
 }
 .one-two{
-    height: 100vh;
+    height: 100%;
+   
 }
+.one-two img{
+    width: 100%;
+    object-fit: cover;
+}
+.one{
+    display: flex;
+}
+
+.two{
+    display: flex;
+}
+
+.three{
+    display: flex;
+}
+
+.Choose-h1{
+
+}
+.choose-middle{
+    display: flex;
+    margin: 20px;
+    padding: 50px;
+    gap: 20px;
+}
+.choose-middle-1{
+    background-color: antiquewhite;
+}
+.choose-middle-2{
+    background-color: bisque;
+}
+
+.choose-last{
+    text-align: center;
+    background-color: bisque;
+    margin: 20px;
+    padding: 50px;
+    gap: 20px;
+}
+
+.form-pic{
+    display: flex;
+    margin: 20px;
+    padding: 50px;
+    gap: 150px;
+}
+.input{
+    border: 1px solid red;
+    margin: 10px;
+    padding: 20px;
+    align-items: center;
+}
+.p-img{
+    position: relative;
+}
+.p-text{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    left: 78%; 
+    top: -30%;
+    transform: rotate(-45deg);
+}
+
+
