@@ -54,11 +54,7 @@ position: absolute;
     background-color: rgb(243, 139, 4);
 }
 
-.button1{
-    padding: 4px 4px;
-    background-color: rgb(243, 139, 4);
-    margin: 0 600px;
-}
+
 
 .input1{
     font-size: 2rem;
@@ -172,7 +168,7 @@ position: absolute;
 }
 .bp-1{
     padding: 50px;
-    background-color: rgba(248, 248, 246, 0.315);
+    background-color: rgba(245, 240, 240, 0.171);
     position: absolute;
     top: 30%;
     left: 50%;
@@ -189,7 +185,7 @@ position: absolute;
 }
 .bp-2{
     padding: 50px;
-    background-color: rgba(248, 248, 246, 0.315);
+    background-color: rgba(245, 240, 240, 0.171);
     position: absolute;
     top: 30%;
     right: 50%;
@@ -197,10 +193,13 @@ position: absolute;
 .bdi-2{
     width: 100%;
 }
+.bonus-deal-3{
+    position: relative;
 
+}
 .bp-3{
     padding: 50px;
-    background-color: rgba(248, 248, 246, 0.315);
+    background-color: rgba(245, 240, 240, 0.171);
     position: absolute;
     top: 30%;
     left: 50%;
@@ -208,7 +207,11 @@ position: absolute;
 .bdi-3{
     width: 100%;
 }
-
+.button1{
+    padding: 2px 2px;
+    background-color: rgb(243, 139, 4);
+    margin:0 auto;
+}
 
 
 .la-bonus{
