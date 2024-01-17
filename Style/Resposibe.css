@@ -1,7 +1,12 @@
-
+@media screen and (max-width:992px) {
+    nav,nav>ul,.second-container,.one,.two,.choose-middle,.form-pic,
+    .last,.icon {
+     display: flex;
+    }
+}
 
 @media screen and (max-width:600px) {
-    nav,nav>ul,.second-container,.one,.two,.form-pic,.last,
+    nav,nav>ul,.second-container,.one,.two,.three,.form-pic,.last,
     .icon {
      flex-direction: column;
     }
@@ -10,16 +15,26 @@
         background-image:url("../Images/Group13.png");
         height: 20vh;
         width: 40vh;
-      
         position: relative;
     }
+
+        .button{
+            padding: 0px 0px;
+            background-color: rgb(243, 139, 4);
+        }
+        
+        .input1{
+            font-size: smaller;
+            margin:55px 20px;
+            position: absolute;
+        }
+
     .one-two{
         height: 50%;
        
     }
     .one-two img{
-        width: 50%;
-        object-fit: cover;
+
     }
     .choose-middle{
         margin: 0px;
@@ -42,18 +57,108 @@
         padding: 0px;
         gap: 0px;
     }
+    .i-logo{
+        width: min-content;
+        margin: 0 auto;
+    }
+
     *{margin: 0;
         padding:  0;
         }
+
+        .icon{
+            padding: 0px;
+            margin: 0 auto;
+            width: min-content;
+    }
+
+    .last{
+        justify-content: center;
+        padding: 0px;
+    }
+    .bonus-deal-1{
+        flex-direction: column;
+    
+    }
+
+    .bonus-deal-2{
+
+    
+    }
+    .bp-2{
+        padding: 0px;
+        background-color: rgba(248, 248, 246, 0.315);
+        position: absolute;
+        top: 30%;
+        right: 50%;
+    }
+    .bdi-2{
+        width: 50%;
+    }
+    
+    .bp-3{
+        padding: 0px;
+        background-color: rgb(248, 248, 246);
+        flex-direction: column;
+        position: static;
+    }
+    .bdi-3{
+        width: 50%;
+    }
+    
+    .amazone-text{
+        font-size: smaller;
+    }
+    .la-bonus{
+        flex-direction: column;
+        padding: 10px;
+        margin: 30px;
+    }
+    
+    .la-p{
+        padding: 2px;
+        margin: 2px;
+ 
     }
 
 
-@media screen and (max-width:992px) {
-    nav,nav>ul,.second-container,.one,.two,.choose-middle,.form-pic,
-    .last,.icon {
-     display: flex;
+    .vid{
+        height: 200px;
+        width: 300px;
+        margin: 0 auto;  
+        padding: 10px;
     }
+    .bh1{
+        font-size: x-small;
+        margin: 0 auto;
+    }
+
+    .bp-1{
+        padding: 50px;
+        background-color: rgba(248, 248, 246, 0.315);
+        position: absolute;
+        top: 0%;
+        left: 50%;
+    }
+    .input{
+        border: 1px solid red;
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+    }
+    .p-text{
+        position: relative;
+        font-size: smaller;
+        height: 40px;
+        width: 100px;
+        background-color: red;
+        left: 70%; 
+        top: -100%;
+        transform: rotate(-45deg);
+    }
+
 }
+
  
 
 
