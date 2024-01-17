@@ -51,6 +51,13 @@ margin:90px 60px ;
     padding: 4px 4px;
     background-color: rgb(243, 139, 4);
 }
+
+.button1{
+    padding: 4px 4px;
+    background-color: rgb(243, 139, 4);
+    margin: 0 600px;
+}
+
 .input1{
     font-size: 2rem;
     margin:100px 60px;
@@ -204,4 +211,25 @@ margin:90px 60px ;
 }
 .bdi-3{
     width: 100%;
+}
+
+
+
+.la-bonus{
+    display: flex;
+    padding: 10px;
+    margin: 30px;
+    gap: 100px;
+}
+
+.la-p{
+    padding: 10px;
+    margin: 30px;
+    gap: 20px;
+}
+
+.vid{
+    height: 400px;
+    width: 600px;
+    gap: 40px;
 }
